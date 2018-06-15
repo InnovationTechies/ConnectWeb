@@ -18,6 +18,8 @@
         <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
         <div class="caption">
           <p>Lorem ipsum...</p>
+
+
         </div>
       </a>
     </div>
