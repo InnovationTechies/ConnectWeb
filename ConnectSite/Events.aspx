@@ -33,5 +33,5 @@ function myMap() {
     var map = new google.maps.Map(mapCanvas, mapOptions);
 }
 </script>
-<script src="https://www.google.co.za/maps/place/Vodacom+Indoor+Sports+Centre/@-34.0109072,25.6760861,17z/data=!3m1!4b1!4m5!3m4!1s0x1e6532d8ee7f0a75:0xce78b1eddab5ab04!8m2!3d-34.0109072!4d25.6782748&key=AIzaSyDyZAUtNt7Orra9321ukLv48rU1DD3OFhM&callback=myMap"></script>
+<script src="<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>"></script>
 </asp:Content>
