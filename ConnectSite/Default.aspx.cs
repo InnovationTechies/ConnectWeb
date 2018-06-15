@@ -18,9 +18,14 @@ namespace ConnectSite
         {
             try
             {
-                var httpWebRequest = (HttpWebRequest).WebRequest("")
+                var httpWebRequest = (HttpWebRequest).WebRequest("");
             }
-            lblTimer.Text = 
+            catch
+            {
+                lblTimer.Text =0 ;
+
+            }
+          
 
         }
     }
