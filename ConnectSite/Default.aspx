@@ -5,5 +5,6 @@
 
 
     <asp:Label ID="lblTimer" runat="server" Text="Label"></asp:Label>
-
+    <asp:Label ID="lblLapse" runat="server" Text="Label"></asp:Label>
+    <asp:Label ID="lblDueDate" runat="server" Text="Label"></asp:Label>
 </asp:Content>
