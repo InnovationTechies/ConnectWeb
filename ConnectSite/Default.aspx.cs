@@ -8,24 +8,33 @@ using System.Globalization;
 
 
 using System.Net;
+using System.Threading;
 
 namespace ConnectSite
 {
     public partial class _Default : Page
     {
+        
         protected void Page_Load(object sender, EventArgs e)
         {
-            
-             DateTime date = DateTime.Now;
-             lblTimer.Text = ("TODAY: "+ date.ToString());
-      
-             DateTime da = new DateTime(2018,08,04,00,00,00);
-            lblDueDate.Text = ("EVENT TIME: " + da);
 
-            TimeSpan span = date.Subtract(da);
-            lblLapse.Text = ("COUNTDOWN: "+ span.Seconds + ":" +span.Minutes+ ":"+ span.Hours + ":"+span.Days);
+            Thread t = new Thread(new ThreadStart(Timer));
+            t.Start();
+
+        }
+            private void Timer()
+            {
+
+                DateTime date = DateTime.Now;
+                lblTimer.Text = ("TODAY: " + date.ToString());
+
+                DateTime da = new DateTime(2018, 08, 04, 00, 00, 00);
+                lblDueDate.Text = ("EVENT TIME: " + da);
+
+                TimeSpan span = da.Subtract(date);
+                lblLapse.Text = ("COUNTDOWN: " + "Seconds: " + span.Seconds + "Minutes: " +span.Minutes + "Hours : " + span.Hours + "Days: " + span.Days);
 
 
             }
         }
-}
+    }
