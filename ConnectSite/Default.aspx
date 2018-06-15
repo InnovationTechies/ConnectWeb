@@ -9,12 +9,12 @@
   <div class="jumbotron">
     <h1>
         
-    <asp:Label ID="lblTimer" runat="server" Text="Label"></asp:Label> <br ><br />
+    <asp:Label ID="lblTimer" runat="server" Text="-------"></asp:Label> <br ><br />
   
-    <asp:Label ID="lblDueDate" runat="server" Text="Label"></asp:Label> <br><br/>
+    <asp:Label ID="lblDueDate" runat="server" Text="-------"></asp:Label> <br><br/>
 
-     <asp:Label ID="lblLapse" runat="server" Text="Label"></asp:Label>
-
+     <asp:Label ID="lblLapse" runat="server" Text="-------"></asp:Label>
+    
         </h1> 
 
   </div>
