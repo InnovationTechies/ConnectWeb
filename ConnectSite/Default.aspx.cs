@@ -4,8 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Globalization;
-using System.Mime;
+
+
 using System.Net;
 
 namespace ConnectSite
@@ -16,15 +16,15 @@ namespace ConnectSite
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            try
-            {
-                var httpWebRequest = (HttpWebRequest).WebRequest("");
-            }
-            catch
-            {
-                lblTimer.Text =0 ;
+            //try
+            //{
+            //    var httpWebRequest = (HttpWebRequest).WebRequest("");
+            //}
+            //catch
+            //{
+            //    lblTimer.Text =0 ;
 
-            }
+            //}
           
 
         }
