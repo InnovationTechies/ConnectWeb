@@ -24,6 +24,8 @@ namespace ConnectSite
         }
             private void Timer()
             {
+            while (true)
+            {
 
                 DateTime date = DateTime.Now;
                 lblTimer.Text = ("TODAY: " + date.ToString());
@@ -32,9 +34,9 @@ namespace ConnectSite
                 lblDueDate.Text = ("EVENT TIME: " + da);
 
                 TimeSpan span = da.Subtract(date);
-                lblLapse.Text = ("COUNTDOWN: " + "Seconds: " + span.Seconds + "Minutes: " +span.Minutes + "Hours : " + span.Hours + "Days: " + span.Days);
+                lblLapse.Text = ("COUNTDOWN: " + " Days: " + span.Days + " Hours: " + span.Hours + " Minutes: " + span.Minutes + " Seconds: " + span.Seconds);
 
-
+            }
             }
         }
     }
