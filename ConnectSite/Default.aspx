@@ -4,7 +4,20 @@
     <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/connect logo.png"/>
 
 
-    <asp:Label ID="lblTimer" runat="server" Text="Label"></asp:Label>
-    <asp:Label ID="lblLapse" runat="server" Text="Label"></asp:Label>
-    <asp:Label ID="lblDueDate" runat="server" Text="Label"></asp:Label>
+
+    <div class="container">
+  <div class="jumbotron">
+    <h1>
+        
+    <asp:Label ID="lblTimer" runat="server" Text="Label"></asp:Label> <br ><br />
+  
+    <asp:Label ID="lblDueDate" runat="server" Text="Label"></asp:Label> <br><br/>
+
+     <asp:Label ID="lblLapse" runat="server" Text="Label"></asp:Label>
+
+        </h1> 
+
+  </div>
+
+</div>
 </asp:Content>
