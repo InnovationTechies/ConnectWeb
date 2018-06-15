@@ -23,7 +23,7 @@ namespace ConnectSite
             lblDueDate.Text = ("EVENT TIME: " + da);
 
             TimeSpan span = date.Subtract(da);
-            lblLapse.Text = ("COUNTDOWN: "+ span.Seconds + ":" +span.Minutes+ ":"+ span.Hours + ":"+span.Days+);
+            lblLapse.Text = ("COUNTDOWN: "+ span.Seconds + ":" +span.Minutes+ ":"+ span.Hours + ":"+span.Days);
 
 
             }
