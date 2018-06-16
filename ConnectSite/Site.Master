@@ -39,7 +39,7 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <div class="navbar navbar-default navbar-fixed-top">
+       <%-- <div class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -52,7 +52,7 @@
                     </h1>
                 </div>
                 <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav navbar-right"">
                         <li><a runat="server" href="~/">Home</a></li>
                         
                         <li><a runat="server" href="~/Vendors.aspx">Vendors</a></li>
@@ -64,7 +64,30 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div>--%>
+
+        <nav class="navbar navbar-fixed-top navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">CON.ECT</a>
+  <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarColor01" aria-label="Toggle navigation" type="button" data-target="#navbarColor01" data-toggle="collapse">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li><a runat="server" href="~/">Home</a></li>
+                        
+                        <li><a runat="server" href="~/Vendors.aspx">Vendors</a></li>
+                        <li><a runat="server" href="~/Events.aspx">Events</a></li>
+                        <li><a runat="server" href="~/Gallery.aspx">Gallery</a></li>
+
+                        <li><a runat="server" href="~/About">About</a></li>
+                        <li><a runat="server" href="~/Contact">Contact</a></li>
+    </ul>
+
+  </div>
+</nav>
+
+
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
