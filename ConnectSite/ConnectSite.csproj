@@ -131,6 +131,7 @@
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Images\aikido.jpg" />
     <Content Include="Images\Allure.jpg" />
     <Content Include="Images\badbunny.jpg" />
     <Content Include="Images\brushs.png" />
@@ -171,7 +172,10 @@
     <Content Include="Images\Gallery\2017\3.jpg" />
     <Content Include="Images\Gallery\2017\4.jpg" />
     <Content Include="Images\Happiness.jpg" />
+    <Content Include="Images\ibhayi.jpg" />
+    <Content Include="Images\Kurone.jpg" />
     <Content Include="Images\loldec.jpg" />
+    <Content Include="Images\mandyV.png" />
     <Content Include="Images\Neko.png" />
     <Content Include="Images\TreasureBox.jpg" />
     <Content Include="Images\utube.jpg" />
