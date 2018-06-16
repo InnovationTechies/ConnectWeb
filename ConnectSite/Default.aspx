@@ -5,7 +5,7 @@
 
     <div class="container">
   <div class="jumbotron"> 
-       <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/connect logo.png"/>
+       <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/connect logo.png" Height="443px" Width="1031px"/>
       <br /><br/>
       <br /><br/>
         

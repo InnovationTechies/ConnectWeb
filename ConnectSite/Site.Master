@@ -68,7 +68,7 @@
 
         <nav class="navbar navbar-fixed-top navbar-dark bg-primary">
   <a class="navbar-brand" href="#">CON.ECT</a>
-  <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarColor01" aria-label="Toggle navigation" type="button" data-target="#navbarColor01" data-toggle="collapse">
+  <button class="navbar-toggler" aria-expanded="true" aria-controls="navbarColor01" aria-label="Toggle navigation" type="button" data-target="#navbarColor01" data-toggle="collapse">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -96,7 +96,7 @@
                 <p>&copy; <%: DateTime.Now.Year %> - CON.ECT</p>
                 
                 <br />
-                <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1"></asp:TreeView>
+                <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" Height="16px" Width="1224px"></asp:TreeView>
                 <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
             
 
