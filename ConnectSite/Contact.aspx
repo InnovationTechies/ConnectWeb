@@ -1,7 +1,7 @@
-﻿<%@ Page Title="Contact Us" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="ConnectSite.Contact" %>
+﻿<%@ Page Title="Contact US:" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="ConnectSite.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2><%: Title %>.</h2>
+    <h2><%: Title %></h2><br><br>
     <address>
 NMMU Vodacom Indoor Sport Centre<br />
 Port Elizabeth, Eastern Cape<br />
