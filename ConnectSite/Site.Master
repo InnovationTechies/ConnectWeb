@@ -94,7 +94,15 @@
             <hr />
             <footer>
                 <p>&copy; <%: DateTime.Now.Year %> - CON.ECT</p>
-            </footer>
+                
+                <br />
+                <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1"></asp:TreeView>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+            
+
+                </footer>
+
+
         </div>
 
     </form>

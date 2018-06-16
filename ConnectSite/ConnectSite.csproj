@@ -131,6 +131,7 @@
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Images\aikido.jpg" />
     <Content Include="Images\Allure.jpg" />
     <Content Include="Images\badbunny.jpg" />
     <Content Include="Images\banner.jpg" />
@@ -148,6 +149,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="fonts\NEW DROP ERA.ttf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Images\connect logo.png" />
     <Content Include="Images\Coskraft.jpg" />
@@ -172,7 +174,10 @@
     <Content Include="Images\Gallery\2017\4.jpg" />
     <Content Include="Images\gams.png" />
     <Content Include="Images\Happiness.jpg" />
+    <Content Include="Images\ibhayi.jpg" />
+    <Content Include="Images\Kurone.jpg" />
     <Content Include="Images\loldec.jpg" />
+    <Content Include="Images\mandyV.png" />
     <Content Include="Images\Neko.png" />
     <Content Include="Images\TreasureBox.jpg" />
     <Content Include="Images\utube.jpg" />
@@ -210,6 +215,7 @@
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
+    <Content Include="Web.sitemap" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
