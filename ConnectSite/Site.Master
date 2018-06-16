@@ -39,7 +39,7 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <div class="navbar navbar-default navbar-fixed-top">
+      <%--  <div class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -64,7 +64,26 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div>--%>
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">CON.ECT</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right"">
+                        
+        <li><a runat="server" href="~/">Home</a></li>
+                        
+                        <li><a runat="server" href="~/Vendors.aspx">Vendors</a></li>
+                        <li><a runat="server" href="~/Events.aspx">Events</a></li>
+                        <li><a runat="server" href="~/Gallery.aspx">Gallery</a></li>
+
+                        <li><a runat="server" href="~/About">About</a></li>
+                        <li><a runat="server" href="~/Contact">Contact</a></li>
+                    </ul>
+  </div>
+</nav> 
 
        
 

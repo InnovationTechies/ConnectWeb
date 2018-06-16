@@ -17,10 +17,10 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="thumbnail">
-                                <a href="/w3images/lights.jpg">
-                                    <img src="/w3images/lights.jpg" alt="Lights" style="width: 100%">
+                                <a href="#">
+                                    <img src="Images/Gallery/2014/1.jpg" alt="Lights" style="width: 100%">
                                     <div class="caption">
-                                        <p>Lorem ipsum...</p>
+
 
 
                                     </div>
@@ -30,9 +30,10 @@
                         <div class="col-md-4">
                             <div class="thumbnail">
                                 <a href="/w3images/nature.jpg">
-                                    <img src="/w3images/nature.jpg" alt="Nature" style="width: 100%">
+                                    <img src="Images/Gallery/2014/2.jpg" alt="Nature" style="width: 100%">
                                     <div class="caption">
-                                        <p>Lorem ipsum...</p>
+
+
                                     </div>
                                 </a>
                             </div>
@@ -40,9 +41,9 @@
                         <div class="col-md-4">
                             <div class="thumbnail">
                                 <a href="/w3images/fjords.jpg">
-                                    <img src="/w3images/fjords.jpg" alt="Fjords" style="width: 100%">
+                                    <img src="Images/Gallery/2014/3.jpg"" alt="Fjords" style="width: 100%">
                                     <div class="caption">
-                                        <p>Lorem ipsum...</p>
+
                                     </div>
                                 </a>
                             </div>
@@ -61,15 +62,18 @@
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">2015</a>
                 </h4>
             </div>
-            <div id="collapse2" class="panel-collapse collapse">
+           
+            <div id="collapse2" class="panel-collapse collapse in">
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-md-4">
                             <div class="thumbnail">
-                                <a href="/w3images/lights.jpg">
-                                    <img src="/w3images/lights.jpg" alt="Lights" style="width: 100%">
+                                <a href="#">
+                                    <img src="Images/Gallery/2015/1.jpg" alt="Lights" style="width: 100%">
                                     <div class="caption">
-                                        <p>Lorem ipsum...</p>
+
+
+
                                     </div>
                                 </a>
                             </div>
@@ -77,9 +81,10 @@
                         <div class="col-md-4">
                             <div class="thumbnail">
                                 <a href="/w3images/nature.jpg">
-                                    <img src="/w3images/nature.jpg" alt="Nature" style="width: 100%">
+                                    <img src="Images/Gallery/2015/2.jpg" alt="Nature" style="width: 100%">
                                     <div class="caption">
-                                        <p>Lorem ipsum...</p>
+
+
                                     </div>
                                 </a>
                             </div>
@@ -87,15 +92,14 @@
                         <div class="col-md-4">
                             <div class="thumbnail">
                                 <a href="/w3images/fjords.jpg">
-                                    <img src="/w3images/fjords.jpg" alt="Fjords" style="width: 100%">
+                                    <img src="Images/Gallery/2015/3.jpg"" alt="Fjords" style="width: 100%">
                                     <div class="caption">
-                                        <p>Lorem ipsum...</p>
+
                                     </div>
                                 </a>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
