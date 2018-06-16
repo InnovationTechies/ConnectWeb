@@ -12,7 +12,7 @@
     <h1>  
         
     <asp:Label ID="lblTimer" Visible="false" runat="server" Text="-------"></asp:Label> <br ><br/>
-   <asp:Timer ID="Timer1" runat="server" ontick="Timer1_Tick" Interval="2000">
+   <asp:Timer ID="Timer1" runat="server" ontick="Timer1_Tick" Interval="800">
      </asp:Timer>
      <asp:UpdatePanel ID="UpdatePanel1" runat="server">
            <ContentTemplate>
@@ -29,6 +29,7 @@
        
         </h1> 
       <br /><br/>
+      <asp:Image ID="Image3" runat="server" ImageUrl="~/Images/gams.png"  />
       <br /><br/>
        <footer class =" footer">
            <a href="https://www.youtube.com/watch?v=0zRnTLlPXcY" <a/>
@@ -37,7 +38,6 @@
                <a href =" https://www.facebook.com/Con.ectSouthAfrica/"<a/>
         <asp:Image ID="Image4" runat="server"  ImageUrl="~/Images/Facebook.png" Height="24px" Width="24px" /> 
        </footer><br /><br/>
-      <asp:Image ID="Image3" runat="server" ImageUrl="~/Images/gams.png"  />
 
   </div>
 
