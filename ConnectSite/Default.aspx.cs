@@ -34,7 +34,7 @@ namespace ConnectSite
                 lblDueDate.Text = ("EVENT: " + da);
 
                 TimeSpan span = da.Subtract(date);
-                lblLapse.Text = ( " DAYS: " + span.Days + " HOURS: " + span.Hours + " MINUTES: " + span.Minutes + " SECONDS: " + span.Seconds);
+                lblLapse.Text = ( " DAYS: " + span.Days + " HR: " + span.Hours + " MINS: " + span.Minutes + " SEC: " + span.Seconds);
 
             }
             
