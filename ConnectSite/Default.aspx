@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="ConnectSite._Default" %>
+﻿<%@ Page Title="Con.ect" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="ConnectSite._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
    
@@ -12,12 +12,7 @@
     <h1>  
         
     <asp:Label ID="lblTimer" Visible="false" runat="server" Text="-------"></asp:Label> <br ><br/>
-  
-    <asp:Label ID="lblDueDate" runat="server" Text="-------"></asp:Label> <br><br/>
-
-<%--        \\<asp:Label ID="Label1" runat="server" Text="TICKETS AT THE DOOR!"></asp:Label><br><br/>--%>
-
-        <asp:Timer ID="Timer1" runat="server" ontick="Timer1_Tick" Interval="2000">
+   <asp:Timer ID="Timer1" runat="server" ontick="Timer1_Tick" Interval="2000">
      </asp:Timer>
      <asp:UpdatePanel ID="UpdatePanel1" runat="server">
            <ContentTemplate>
@@ -26,7 +21,12 @@
                <Triggers>
                    <asp:AsyncPostBackTrigger ControlID="Timer1" EventName="Tick" />
                </Triggers>
-     </asp:UpdatePanel>
+     </asp:UpdatePanel><br>
+    <asp:Label ID="lblDueDate" runat="server" Text="-------"></asp:Label> <br><br/>
+
+<%--        \\<asp:Label ID="Label1" runat="server" Text="TICKETS AT THE DOOR!"></asp:Label><br><br/>--%>
+
+       
         </h1> 
       <br /><br/>
       <br /><br/>
@@ -36,7 +36,8 @@
 
                <a href =" https://www.facebook.com/Con.ectSouthAfrica/"<a/>
         <asp:Image ID="Image4" runat="server"  ImageUrl="~/Images/Facebook.png" Height="24px" Width="24px" /> 
-       </footer>
+       </footer><br /><br/>
+      <asp:Image ID="Image3" runat="server" ImageUrl="~/Images/gams.png"  />
 
   </div>
 
