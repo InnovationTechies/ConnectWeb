@@ -36,12 +36,13 @@ namespace ConnectSite
                 lblLapse.Text = ("COUNTDOWN: " + " DAYS: " + span.Days + " HOURS: " + span.Hours + " MINUTES: " + span.Minutes + " SECONDS: " + span.Seconds);
 
             }
-
+            
             }
       
         protected void Timer1_Tick(object sender, EventArgs e)
         {
             
+
            
             //lblLapse.Text = DateTime.Now.ToString();
         }
