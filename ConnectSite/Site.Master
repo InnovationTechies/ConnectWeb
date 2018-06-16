@@ -93,13 +93,13 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - CON.ECT</p>
-                
-                <br />
+               
                 <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" Height="16px" Width="1224px"></asp:TreeView>
                 <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                
+                <br />
             
-
+                 <p>&copy; <%: DateTime.Now.Year %> - CON.ECT</p>
                 </footer>
 
 
