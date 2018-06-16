@@ -3,7 +3,7 @@
 
 
 <h3 style="font-size:40px;text-align:center">Con.ect 2018 Vendors and Exhibitors</h3>
-<h6 style="font-size:medium;text-align:center">A sneak peak at some of the amazing vendors and exhibitors that can be expected at Con.ect 2017!</h6>
+<h6 style="font-size:medium;text-align:center">A sneak peak at some of the amazing vendors and exhibitors that can be expected at Con.ect 2018!</h6>
     
 <div class="jumbotron">
  <table style="width:50%; height:50%">
@@ -24,13 +24,12 @@
         <img src="Images/Happiness.jpg" alt="Visit us" style="width:250px;height:250px;border:0">
         </a>
       </th>
-     <th>
+         <th>
           <a href="http://badbunnytoystore.co.za/">
           <img src="Images/badbunny.jpg" alt="Visit us" style="width:250px;height:250px;border:0">
         
         </a>
       </th>
-     
     <tr>
       <th> 
         <a href="https://www.facebook.com/justLOLdecor/">
@@ -56,8 +55,6 @@
         </a>
       </th>
 
-
-  
  </tr>
  <tr>
        <th>
@@ -88,35 +85,6 @@
   </tr>
 </table>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

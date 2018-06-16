@@ -1,17 +1,13 @@
-﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="ConnectSite.Contact" %>
+﻿<%@ Page Title="Contact Us" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="ConnectSite.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %>.</h2>
-    <h3>Your contact page.</h3>
     <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
+NMMU Vodacom Indoor Sport Centre<br />
+Port Elizabeth, Eastern Cape<br />
+        6070
     </address>
-
-    <address>
-        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-    </address>
+    <p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Email : <span style="color:blue;"><a>Con.ectsafrica@gmail.com</a></span></p>
+	<p><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Phone No:<span style="color:blue;"> 041 504 3381 </span></p>
+	
 </asp:Content>
