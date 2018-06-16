@@ -20,18 +20,16 @@ We look forward to seeing you there!<br><br></div>
 </style>
 
 <!-- Display the map -->
-<div id="map"></div>
-
-<!-- Google Maps Script -->
+<div id="googleMap" style="height:400px;width:100%;"></div>
 <script>
 function myMap() {
-    var mapCanvas = document.getElementById("map");
-    var mapOptions = {
-        center: new google.maps.LatLng(51.5, -0.2),
-        zoom: 10
-    };
-    var map = new google.maps.Map(mapCanvas, mapOptions);
+var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var marker = new google.maps.Marker({position:myCenter});
+marker.setMap(map);
 }
 </script>
-<script src="<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
 </asp:Content>
