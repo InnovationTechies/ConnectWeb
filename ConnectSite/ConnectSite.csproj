@@ -152,6 +152,7 @@
     <Content Include="Images\Coskraft.jpg" />
     <Content Include="Images\download.png" />
     <Content Include="Images\ECW.jpg" />
+    <Content Include="Images\Facebook.png" />
     <Content Include="Images\Gallery\2014\1.jpg" />
     <Content Include="Images\Gallery\2014\2.jpg" />
     <Content Include="Images\Gallery\2014\3.jpg" />
@@ -172,6 +173,7 @@
     <Content Include="Images\loldec.jpg" />
     <Content Include="Images\Neko.png" />
     <Content Include="Images\TreasureBox.jpg" />
+    <Content Include="Images\utube.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
