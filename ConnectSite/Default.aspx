@@ -11,11 +11,11 @@
         
     <h1>  
         
-    <asp:Label ID="lblTimer" runat="server" Text="-------"></asp:Label> <br ><br/>
+    <asp:Label ID="lblTimer" Visible="false" runat="server" Text="-------"></asp:Label> <br ><br/>
   
     <asp:Label ID="lblDueDate" runat="server" Text="-------"></asp:Label> <br><br/>
 
-        <asp:Label ID="Label1" runat="server" Text="TICKETS AT THE DOOR!"></asp:Label><br><br/>
+<%--        \\<asp:Label ID="Label1" runat="server" Text="TICKETS AT THE DOOR!"></asp:Label><br><br/>--%>
 
         <asp:Timer ID="Timer1" runat="server" ontick="Timer1_Tick" Interval="2000">
      </asp:Timer>
@@ -31,10 +31,17 @@
       <br /><br/>
       <br /><br/>
        <footer class =" footer">
-        <asp:Image ID="Image4" runat="server"  ImageUrl="~/Images/Facebook.png" Image_OnClick =" https://www.facebook.com/Con.ectSouthAfrica/" Height="150px" /> <asp:Image ID="Image2" runat="server" ImageUrl ="~/Images/utube.jpg" Image_OnClick=" https://www.youtube.com/watch?v=0zRnTLlPXcY" Height="150px"/>
+           <a href="https://www.youtube.com/watch?v=0zRnTLlPXcY" <a/>
+           <asp:Image ID="Image2" runat="server" ImageUrl ="~/Images/utube.jpg" Height="23px" Width="31px"/>
+
+               <a href =" https://www.facebook.com/Con.ectSouthAfrica/"<a/>
+        <asp:Image ID="Image4" runat="server"  ImageUrl="~/Images/Facebook.png" Height="24px" Width="24px" /> 
        </footer>
 
   </div>
 
 </div>
+   
+    </a>
+   
 </asp:Content>
