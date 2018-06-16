@@ -9,7 +9,7 @@
  <table style="width:50%; height:50%">
   <tr>
     <th> 
-        <a href="https://www.wanderingneko.co.za">
+        <a href="https://www.facebook.com/scarletxneko/">
         <img src="Images/Neko.png" alt="Visit us" style="width:250px;height:250px;border:0">
         </a>
     </th>
