@@ -31,7 +31,7 @@
       <br /><br/>
       <br /><br/>
        <footer class =" footer">
-        <asp:Image ID="Image4" runat="server"  ImageUrl="~/Images/Facebook.png" Image_Click =" https://www.facebook.com/Con.ectSouthAfrica/" Height="150px" /> <asp:Image ID="Image2" runat="server" ImageUrl ="~/Images/utube.jpg" Image_Click=" https://www.youtube.com/watch?v=0zRnTLlPXcY" Height="150px"/>
+        <asp:Image ID="Image4" runat="server"  ImageUrl="~/Images/Facebook.png" Image_OnClick =" https://www.facebook.com/Con.ectSouthAfrica/" Height="150px" /> <asp:Image ID="Image2" runat="server" ImageUrl ="~/Images/utube.jpg" Image_OnClick=" https://www.youtube.com/watch?v=0zRnTLlPXcY" Height="150px"/>
        </footer>
 
   </div>
