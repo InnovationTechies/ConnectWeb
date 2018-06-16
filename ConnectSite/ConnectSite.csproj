@@ -133,6 +133,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Images\Allure.jpg" />
     <Content Include="Images\badbunny.jpg" />
+    <Content Include="Images\banner.jpg" />
     <Content Include="Images\brushs.png" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
@@ -169,6 +170,7 @@
     <Content Include="Images\Gallery\2017\2.jpg" />
     <Content Include="Images\Gallery\2017\3.jpg" />
     <Content Include="Images\Gallery\2017\4.jpg" />
+    <Content Include="Images\gams.png" />
     <Content Include="Images\Happiness.jpg" />
     <Content Include="Images\loldec.jpg" />
     <Content Include="Images\Neko.png" />
