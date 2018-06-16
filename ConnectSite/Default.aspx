@@ -13,7 +13,20 @@
   
     <asp:Label ID="lblDueDate" runat="server" Text="-------"></asp:Label> <br><br/>
 
-     <asp:Label ID="lblLapse" runat="server" Text="-------"></asp:Label>
+   
+        <asp:Timer ID="Timer1" runat="server" ontick="Timer1_Tick" Interval="2000">
+     </asp:Timer>
+     <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+           <ContentTemplate>
+           <asp:Label ID="lblLapse" runat="server" Text="-------"></asp:Label>
+           </ContentTemplate>
+               <Triggers>
+
+                   <asp:AsyncPostBackTrigger ControlID="Timer1" EventName="Tick" />
+
+               </Triggers>
+     </asp:UpdatePanel>
+
     
         </h1> 
 

@@ -30,10 +30,10 @@ namespace ConnectSite
                 lblTimer.Text = ("TODAY: " + date.ToString());
 
                 DateTime da = new DateTime(2018, 08, 04, 10, 00, 00);
-                lblDueDate.Text = ("EVENT TIME: " + da);
+                lblDueDate.Text = ("EVENT: " + da);
 
                 TimeSpan span = da.Subtract(date);
-                lblLapse.Text = ("COUNTDOWN: " + " Days: " + span.Days + " Hours: " + span.Hours + " Minutes: " + span.Minutes + " Seconds: " + span.Seconds);
+                lblLapse.Text = ("COUNTDOWN: " + " DAYS: " + span.Days + " HOURS: " + span.Hours + " MINUTES: " + span.Minutes + " SECONDS: " + span.Seconds);
 
             }
 
@@ -41,7 +41,9 @@ namespace ConnectSite
       
         protected void Timer1_Tick(object sender, EventArgs e)
         {
-            lblLapse.Text = DateTime.Now.ToString();
+            
+           
+            //lblLapse.Text = DateTime.Now.ToString();
         }
     }
     }
