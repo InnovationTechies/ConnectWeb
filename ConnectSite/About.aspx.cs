@@ -12,6 +12,7 @@ namespace ConnectSite
         protected void Page_Load(object sender, EventArgs e)
         {
             //https://www.codeproject.com/Questions/308807/How-to-implement-countdown-timer-in-asp-net-using
+            https://www.facebook.com/events/223693441533968/?active_tab=discussion
         }
     }
 }
