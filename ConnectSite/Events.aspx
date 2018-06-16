@@ -1,26 +1,23 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Events.aspx.cs" Inherits="ConnectSite.Events" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 <div class =" contetText"><br><br>
- Con.ect is the Eastern Cape's premier fan and geek convention and will be taking place at the Nelson Mandela University Vodacom Indoor Sport Centre on Saturday 4 and Sunday 5 August 2018, from 10:00 - 18:00 on both days. Once again, we are teaming up with the amazing Sector 17 eSports, and convention regular Roland Gaspar will be our host.
+ 
 
-Tickets will be sold at the door and are R50 for Saturday and Sunday Day Passes, or R80 for Weekend Passes. Children under six years enter for free.
 
-Information regarding the LAN will be announced closer to the convention.
 
-We look forward to seeing you there!<br><br></div>
+
+<br><br></div>
 
 <div class="list-group">
   <a href="#" class="list-group-item active">
-    <h4 class="list-group-item-heading">First List Group Item Heading</h4>
-    <p class="list-group-item-text">List Group Item Text</p>
+    <p class="list-group-item-text">Con.ect is the Eastern Cape's premier fan and geek convention <br>and will be taking place at the Nelson Mandela University Vodacom Indoor Sport Centre <br>on Saturday 4 and Sunday 5 August 2018, from 10:00 - 18:00 on both days. Once again,<br> we are teaming up with the amazing Sector 17 eSports, <br>and convention regular Roland Gaspar will be our host.
+</p>
   </a>
   <a href="#" class="list-group-item">
-    <h4 class="list-group-item-heading">Second List Group Item Heading</h4>
-    <p class="list-group-item-text">List Group Item Text</p>
+    <p class="list-group-item-text">Tickets will be sold at the door <br>R50 for Saturday and Sunday Day Passes.<br>R80 for Weekend Passes. <br>Children under six years enter for free.</p>
   </a>
   <a href="#" class="list-group-item">
-    <h4 class="list-group-item-heading">Third List Group Item Heading</h4>
-    <p class="list-group-item-text">List Group Item Text</p>
+    <p class="list-group-item-text">Information regarding the LAN will be announced closer to the convention.<br> We look forward to seeing you there!</p>
   </a>
 </div>
 
