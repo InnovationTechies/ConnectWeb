@@ -150,6 +150,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="fonts\NEW DROP ERA.ttf" />
+    <None Include="Properties\PublishProfiles\ConnectSiteWeb - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Images\connect logo.png" />
     <Content Include="Images\Coskraft.jpg" />
