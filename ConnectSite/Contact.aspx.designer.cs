@@ -13,5 +13,9 @@ namespace ConnectSite
 
     public partial class Contact
     {
+
+        //its numbers things
+
+        
     }
 }
